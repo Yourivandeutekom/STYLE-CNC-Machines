@@ -1,0 +1,11 @@
+/* "o-class-name" object & "c-class-name" visual */
+
+/* Global CSS */
+:root {
+    --main-blue-color: hsl(216, 57%, 39%);
+}
+
+/* Topbar navigation */
+#o-top-nav {
+    background-color: var(--main-blue-color);
+}
