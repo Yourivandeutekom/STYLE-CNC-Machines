@@ -3,9 +3,28 @@
 /* Global CSS */
 :root {
     --main-blue-color: hsl(216, 57%, 39%);
+    --white: hsl(0, 0%, 100%);
+}
+
+.c-fixed-width {
+    max-inline-size: 1200px;
+    margin: 0 auto;
+}
+
+.c-nav-flex {
+    display: flex;
 }
 
 /* Topbar navigation */
 #o-top-nav {
     background-color: var(--main-blue-color);
+    color: var(--white);
+}
+
+#o-top-nav div {
+    justify-content: space-between;
+}
+
+.o-nav-language ul {
+    display: none;
 }
